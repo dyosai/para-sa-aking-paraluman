@@ -220,11 +220,11 @@ setInterval(updatePocketWatchClock, 1000);
 updatePocketWatchClock();
 
 const gooseQuotes = [
-  '🐒 "honk! mahal na mahal ka ni pagi ~"',
-  '🐒 "quack: ngumiti ka na, paraluman!"',
-  '🐒 "silly goose reminder: magpahinga ka rin."',
-  '🐒 "honk! ikaw ang paborito niyang tula."',
-  '🐒 "andito lang si pagi para sa\'yo, yakap mahigpit ~"',
+  '🩷 "honk! mahal na mahal ka ni pagi ~"',
+  '🩷 "quack: ngumiti ka na, paraluman!"',
+  '🩷 "silly goose reminder: magpahinga ka rin."',
+  '🩷 "honk! ikaw ang paborito niyang tula."',
+  '🩷 "andito lang si pagi para sa\'yo, yakap mahigpit ~"',
 ];
 
 if (sillyGoose) {
