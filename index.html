@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="tl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>para sa aking paraluman</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="lamp-on">
+    <canvas id="bg-canvas"></canvas>
+
+    <audio id="bg-music" src="audio/parasaakin.mp3" loop></audio>
+    <audio id="rain-audio" src="audio/rain.mp3" loop></audio>
+    <audio id="forest-audio" src="audio/forest.mp3" loop></audio>
+    <audio id="chime-audio" src="audio/chime.mp3"></audio>
+
+    <div id="login-gate">
+      <div class="login-card vignette-paper capiz-frame">
+        <div class="popup-seal">✨</div>
+        <h2>pahina ng pagsuyo</h2>
+        <p>pasukin ang santuwaryo ng ating mga alaala</p>
+        <div class="input-group">
+          <label>username</label>
+          <input
+            type="text"
+            id="userInput"
+            placeholder="hal. ating tawagan..."
+            autocomplete="off"
+          />
+        </div>
+        <div class="input-group">
+          <label>password</label>
+          <input
+            type="password"
+            id="passInput"
+            placeholder="hal. ano ako sayo..."
+            autocomplete="off"
+          />
+        </div>
+        <button class="btn-tulip click-sound" id="unlockBtn">
+          pumasok sa ating tahanan
+        </button>
+        <div class="error-msg" id="errorMsg"></div>
+      </div>
+    </div>
+
+    <div id="welcome-popup" class="popup-overlay fade-out">
+      <div class="popup-card vignette-paper capiz-frame">
+        <div class="popup-seal">🌷</div>
+        <span class="popup-greeting"
+          >para sa aking pinakamamahal na paraluman,</span
+        >
+        <p class="popup-message">
+          sa bawat pihit ng tadhana at tahimik na sandali ng pag-iisa, hinabi at
+          nilikha ko ang munting santuwaryong ito para sa iyo. hindi lamang ito
+          basta tahanan ng ating mga alaala, kundi isang buhay na kundiman—isang
+          patunay na sa gitna ng lawak ng daigdig at ingay ng panahon, ikaw ang
+          tanging tula na pilit kong binibigkas at pinanghahawakan.
+        </p>
+        <span class="popup-signature">— nagmamahal, si pagi mo 🐒✨</span>
+        <button id="close-popup-btn" class="click-sound">
+          simulan ang paglalakbay
+        </button>
+      </div>
+    </div>
+
+    <div id="silly-goose" title="ang iyong spirit animal" class="click-sound">
+      <div class="goose-body">🐒✨</div>
+      <div class="goose-bubble" id="goose-speech">
+        🐒✨ "andito lang si pagi para sa'yo, yakap mahigpit ~"
+      </div>
+    </div>
+
+    <div
+      id="floating-letter-seal"
+      class="click-sound"
+      title="isang liham para sa iyo"
+    >
+      💌 <span class="seal-tooltip">isang liham ng pangako</span>
+    </div>
+
+    <div id="main-app" class="hidden">
+      <div id="archive-wrapper" class="active-view">
+        <div id="control-bar" class="centered-control-dock">
+          <div
+            id="pocket-watch-badge"
+            class="control-btn astro-badge"
+            title="live time"
+          >
+            <span>♊︎ <span id="live-utc-time">00:00:00</span></span>
+          </div>
+          <div id="cassette-widget" class="control-btn click-sound">
+            <div class="cassette-reels">
+              <div class="reel"></div>
+              <div class="reel"></div>
+            </div>
+            <span id="audio-status">musika</span>
+          </div>
+          <div id="soundscape-widget" class="control-btn click-sound">
+            <span>🌧️ <span id="sound-status">tahimik</span></span>
+          </div>
+          <div id="lamp-widget" class="control-btn click-sound">
+            <span>🏮 lampara</span>
+          </div>
+          <div id="blur-widget" class="control-btn click-sound">
+            <span>✨ blur: <span id="blur-status">on</span></span>
+          </div>
+        </div>
+
+        <div class="header-container">
+          <h2 class="archive-title">himlayan ng alaala</h2>
+          <p class="archive-subtitle">
+            isang banal na santuwaryo ng ating mga mukha, diwa, at tula
+          </p>
+        </div>
+
+        <div class="section-hero-title">mga bakas ng ating kahapon</div>
+        <div class="polaroid-grid" id="polaroid-container"></div>
+
+        <div class="section-hero-title journal-section-spacing">
+          panata ng pagsuyo
+        </div>
+        <div class="binder-scroll-container" id="reassurance-container"></div>
+
+        <div class="section-hero-title journal-section-spacing">
+          mga liham at tula
+        </div>
+        <div class="binder-scroll-container" id="binder-container"></div>
+
+        <div class="section-hero-title journal-section-spacing">
+          santuwaryo ng mga paalala
+        </div>
+        <div class="binder-scroll-container" id="reminders-container"></div>
+      </div>
+
+      <div id="letter-wrapper" class="hidden">
+        <div class="paper vignette-paper capiz-frame">
+          <h1 class="title" id="letter-title">aking paraluman,</h1>
+          <p id="typewriter-text"></p>
+          <div class="nav-buttons">
+            <button id="back-button" class="click-sound">
+              ← bumalik sa talaarawan
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
