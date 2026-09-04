@@ -225,6 +225,7 @@ const gooseQuotes = [
   '🩷 "silly goose reminder: magpahinga ka rin."',
   '🩷 "honk! ikaw ang paborito niyang tula."',
   '🩷 "andito lang si pagi para sa\'yo, yakap mahigpit ~"',
+  '🩷 "quack! tandaan mo, ikaw ay mahalaga."',
 ];
 
 if (sillyGoose) {
