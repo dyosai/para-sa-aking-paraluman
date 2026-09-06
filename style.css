@@ -710,3 +710,107 @@ body::after {
     opacity: 0;
   }
 }
+.medieval-wax-seal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(11, 19, 14, 0.94);
+  backdrop-filter: blur(14px);
+  z-index: 6000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.medieval-wax-seal-overlay.seal-opening {
+  opacity: 0;
+  transform: scale(1.15);
+  pointer-events: none;
+}
+
+.medieval-parchment-scroll {
+  background: #fcf6ed;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(217, 130, 117, 0.18) 100%
+  );
+  border: 2px solid #c25562;
+  padding: 3rem 4rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow:
+    0 0 50px rgba(194, 85, 98, 0.4),
+    inset 0 0 30px rgba(217, 130, 117, 0.2);
+  animation: parchment-pulse 1.2s infinite alternate ease-in-out;
+}
+
+.wax-seal-badge {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: seal-stamp 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.medieval-parchment-scroll p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #4a282c;
+  letter-spacing: 1px;
+}
+
+@keyframes parchment-pulse {
+  0% {
+    transform: scale(0.97);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}
+
+@keyframes seal-stamp {
+  0% {
+    transform: scale(0.3) rotate(-20deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+.letter-act-badge {
+  font-family: "Playfair Display", serif;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  color: #d96b75;
+  text-align: center;
+  margin-bottom: 4px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.letter-part-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 1.35rem;
+  color: #4a282c;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.letter-divider {
+  width: 50px;
+  height: 1px;
+  background: rgba(217, 107, 117, 0.4);
+  margin: 0 auto 18px auto;
+}
+
+#typewriter-body {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  white-space: pre-line;
+  color: #442226;
+}

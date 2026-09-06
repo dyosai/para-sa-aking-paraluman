@@ -46,11 +46,283 @@ const reassurancePages = [
 const binderPages = [
   {
     id: 101,
-    title: "liham ng ika-15 buwan: ang kundiman ng ating tadhana",
-    date: "nakakubli pa...",
-    type: "locked",
-    message:
-      "✦ tahimik pang natutulog ang mga pahinang ito sa ilalim ng buwan... naghihintay sa tamang sandali upang umawit nang buong tinig para sa iyo, aking paraluman. ✦",
+    title: "parsa sayo, 4:50",
+    date: "maligayang ika-15 buwan",
+    type: "special-interactive",
+    parts: [
+      {
+        act: "act i.",
+        heading: "happy 450 days, mahal",
+        text: `happy 450 days, mahal.
+
+four hundred and fifty days of choosing you, finding you, learning you, and somehow finding pieces of myself along the way.
+
+ang dami na nating araw na pinagdaanan—mga ordinaryong umaga, mahahabang gabi, mga tawanan na hanggang sumakit na ang ating tiyan, mga katahimikang hindi kailangang punuin ng salita, at mga sandaling isang tingin mo lang ay sapat na para gumaan ang mundo ko.
+
+and if you ask me what i'm most grateful for, it isn't simply that i've had 450 days with you my dear.
+
+it's that those 450 days became ours.
+
+sa bawat araw na nagdaan, sa bawat paghinga, sa bawat maliit na sandaling baka hindi natin napansin, unti-unting nabuo ang isang kuwentong walang ibang makakapagsulat kundi tayo.
+
+you became a familiar kind of light in the quietest parts of my life.
+
+hindi dahil palagi mong pinapawi ang dilim, kundi dahil sa presensya mo, natutunan kong hindi pala kailangang matakot sa dilim.
+
+so please, stay for more.
+
+for more ordinary mornings.
+for more ridiculous conversations.
+for more little adventures.
+for more silences.
+for more "kumain ka na ba?"
+for more apologies and forgiveness.
+for more growing pains.
+for more versions of ourselves that we have yet to meet.
+
+because i don't want our story to be remembered simply because it lasted.
+
+i want it to be remembered because we lived it.
+
+mahal, this story was never meant to be perfect.
+
+it was meant to be ours.
+
+and if there are still hundreds, thousands, or countless more days waiting somewhere ahead of us—
+
+i'd still love for them to have your name beside mine.`,
+      },
+      {
+        act: "act ii.",
+        heading: "the good, the bad, and the ugly",
+        text: `they say every relationship has its own language.
+
+and perhaps ours was never meant to be written entirely in beautiful words.
+
+may mga araw na madali tayong nagkakaintindihan, pero mayroon ding mga araw na parang magkaibang wika ang ginagamit ng puso natin.
+
+ang pag-ibig ay hindi laging gentle.
+
+sometimes, it is inconvenient.
+sometimes, it is uncomfortable.
+sometimes, it asks us to look at parts of ourselves we would rather leave unseen.
+
+we have had our good.
+
+we have had our bad.
+
+and yes, we've had our ugly.
+
+may mga tampuhan, mga pagkukulang, mga salitang sana'y sinabi nang mas mahinahon, mga sandaling pareho nating hindi alam kung paano hahawakan ang bigat ng isa't isa.
+
+pero doon ko rin natutunan na ang isang relasyon ay hindi sinusukat sa kung gaano kadalas kayo nagkakasundo.
+
+sometimes, it is revealed in what you do after the disagreement.
+
+kung marunong ka bang bumalik.
+kung marunong kang makinig.
+kung kaya mong magsabi ng "mali ako."
+kung kaya mong magsabi ng "nasaktan ako."
+at higit sa lahat, kung kaya mong sabihin, "let's understand each other before we try to win."
+
+because love is not a competition where one person has to lose for the other to be right.
+
+ang tunay na intimacy ay hindi lamang ang pagkakilala sa pinakamagandang bahagi ng isa't isa.
+
+it is being trusted with the difficult parts, too.
+
+and choosing not to weaponize what you've learned about them.
+
+kaya oo, may mga unos.
+
+may mga sugat.
+
+may mga luha.
+
+but perhaps these things do not automatically mean that our love is broken.
+
+sometimes, they are simply proof that two imperfect people are learning how to hold something precious without always knowing how.
+
+and i think that's one of the bravest things about us.
+
+we keep learning.`,
+      },
+      {
+        act: "act iii.",
+        heading: "the ugly, the bad, and the good",
+        text: `and now, perhaps, let me contradict everything i just said.
+
+maybe the good does not come before the bad.
+
+maybe the beauty was never in having a beautiful story from the beginning.
+
+maybe—
+
+the ugly came first.
+
+the misunderstandings.
+the fears.
+the insecurities.
+the parts of ourselves we didn't know how to explain.
+the moments when loving each other felt less like poetry and more like work.
+
+and yet, somehow, there was still something beautiful growing underneath it all.
+
+because sometimes, the light means more when you have already known the dark.
+
+ang isang kandila ay hindi nagiging mahalaga dahil wala itong dilim na haharapin.
+
+nagiging mahalaga ito dahil kahit napapalibutan ng dilim, pinipili pa rin nitong magliwanag.
+
+and maybe that is us.
+
+not perfect.
+not untouched.
+not without scars.
+
+but still here.
+
+still learning.
+
+still choosing.
+
+may kakaibang ganda sa dalawang taong hindi naman palaging alam ang tamang gawin, pero parehong may kagustuhang matutunan ito.
+
+the goal was never to become a couple who never hurts.
+
+the goal is to become two people who know how to repair.
+
+to know when to hold.
+when to listen.
+when to speak.
+when to apologize.
+when to give space.
+and when to reach for each other's hand again.
+
+because a lasting love isn't necessarily one without cracks.
+
+sometimes, it is one that learns how to let the light pass through them.
+
+so if our story has taught me anything, it is this:
+
+i don't love you because our path has always been beautiful.
+
+i love you because even when the path became difficult, there was still something in us that whispered—
+
+"let's try again."
+
+and perhaps that is our own kind of kundiman.
+
+not a song without sadness,
+
+but a song that remains beautiful because it knows how to sing through it.`,
+      },
+      {
+        act: "act iv.",
+        heading: "i love you, i'm sorry",
+        text: `mahal,
+
+i love you.
+
+and i am sorry.
+
+sorry for the moments when i failed to understand you the way you needed to be understood.
+
+sorry for the times my words were heavier than i intended them to be, for the moments when my own emotions became louder than my willingness to listen.
+
+i'm still learning.
+
+i'm still becoming.
+
+and i know that loving someone does not automatically make us experts at loving them.
+
+kaya gusto kong malaman mo:
+
+i see you.
+
+i hear you.
+
+and i am trying.
+
+not to become someone who simply agrees with everything you say, but someone who is willing to understand where you're coming from.
+
+i want to meet you halfway—
+
+but i also want us to remember that halfway should never mean that one of us disappears.
+
+i don't want you to abandon your needs for mine.
+
+and i don't want to abandon mine for yours.
+
+i want us to learn the harder, healthier kind of love:
+
+the kind where we can say, "this is what i need,"
+without making the other person feel guilty for having needs of their own.
+
+the kind where our differences don't automatically become threats.
+
+the kind where we can disagree without becoming enemies.
+
+the kind where "i love you" does not mean "i always agree with you."
+
+because you are not supposed to become me.
+
+and i am not supposed to become you.
+
+we are two different people who somehow found each other in this enormous world—
+
+and perhaps the miracle is not that we are the same.
+
+the miracle is that despite our differences, we keep trying to understand.
+
+so on our 450th day, i don't want to promise you perfection.
+
+i'd rather promise you something more honest:
+
+that i will keep learning.
+
+i will keep listening.
+
+i will keep trying to meet you halfway without losing myself along the way.
+
+and when we get lost in the noise of our own feelings, i hope we remember that we are not enemies standing across from each other.
+
+we are two people standing on the same side, trying to solve the same problem.
+
+ikaw at ako.
+
+hindi laban sa isa't isa,
+
+kundi magkatabi.
+
+450 days down.
+
+and somehow, mahal,
+
+i still want more.
+
+more days.
+more growth.
+more laughter.
+more healing.
+more ordinary moments that one day we'll realize were actually the extraordinary ones.
+
+happy 450 days, mahal.
+
+thank you for being part of my becoming.
+
+and if life gives us another 450 days—
+
+i hope we meet them not as perfect people,
+
+but as two people who still choose to say,
+
+"ikaw pa rin."
+
+— nagmamahal nang walang hanggan,
+simong pagi ✨`,
+      },
+    ],
   },
 ];
 
@@ -186,9 +458,11 @@ if (closePopupBtn && welcomePopup) {
 if (floatingLetterSeal) {
   floatingLetterSeal.addEventListener("click", (e) => {
     createTulipBurst(e);
-    if (archiveWrapper) archiveWrapper.style.display = "none";
-    if (letterWrapper) letterWrapper.classList.add("active-view");
-    openSelectedLetter(specialPangakoLetter);
+    triggerMedievalOpenAnimation(() => {
+      if (archiveWrapper) archiveWrapper.style.display = "none";
+      if (letterWrapper) letterWrapper.classList.add("active-view");
+      openSelectedLetter(specialPangakoLetter);
+    });
   });
 }
 
@@ -452,6 +726,50 @@ function createTulipBurst(e) {
   }
 }
 
+// Add this inside your triggerMedievalOpenAnimation function call specifically for binder pages or special letters:
+function triggerMedievalOpenAnimation(callback, isSpecialFireworks = false) {
+  const sealOverlay = document.createElement("div");
+  sealOverlay.className = "medieval-wax-seal-overlay";
+  sealOverlay.innerHTML = `
+    <div class="medieval-parchment-scroll">
+      <div class="wax-seal-badge">${isSpecialFireworks ? "🎆🌷" : "💌"}</div>
+      <p>${isSpecialFireworks ? "binubuksan ang sagradong selyo ng ika-15 buwan..." : "binubuksan ang selyo ng panahon..."}</p>
+    </div>
+  `;
+  document.body.appendChild(sealOverlay);
+
+  if (isSpecialFireworks) {
+    launchMagicalFireworks();
+  }
+
+  setTimeout(() => {
+    sealOverlay.classList.add("seal-opening");
+  }, 600);
+
+  setTimeout(() => {
+    sealOverlay.remove();
+    if (callback) callback();
+  }, 1200);
+}
+
+function launchMagicalFireworks() {
+  const symbols = ["🎆", "✨", "💖", "🌷", "🌟"];
+  for (let i = 0; i < 25; i++) {
+    const firework = document.createElement("div");
+    firework.className = "tulip-petal-particle";
+    firework.innerText = symbols[Math.floor(Math.random() * symbols.length)];
+    const angle = Math.random() * Math.PI * 2;
+    const distance = Math.random() * 220 + 60;
+    firework.style.left = `${window.innerWidth / 2}px`;
+    firework.style.top = `${window.innerHeight / 2}px`;
+    firework.style.setProperty("--dx", `${Math.cos(angle) * distance}px`);
+    firework.style.setProperty("--dy", `${Math.sin(angle) * distance}px`);
+    firework.style.setProperty("--rot", `${Math.random() * 360}deg`);
+    document.body.appendChild(firework);
+    setTimeout(() => firework.remove(), 1500);
+  }
+}
+
 function buildHeroPolaroids() {
   if (!polaroidContainer) return;
   polaroidContainer.innerHTML = "";
@@ -463,9 +781,11 @@ function buildHeroPolaroids() {
     card.innerHTML = `<div style="width: 100%; height: 95px; overflow: hidden; background: #fffaf5; margin-bottom: 6px; border-radius: 4px;"><img src="${letter.image}" alt="${letter.title}" style="width: 100%; height: 100%; object-fit: cover;"></div><span>${letter.title}</span>`;
     card.addEventListener("click", (e) => {
       createTulipBurst(e);
-      if (archiveWrapper) archiveWrapper.style.display = "none";
-      if (letterWrapper) letterWrapper.classList.add("active-view");
-      openSelectedLetter(letter);
+      triggerMedievalOpenAnimation(() => {
+        if (archiveWrapper) archiveWrapper.style.display = "none";
+        if (letterWrapper) letterWrapper.classList.add("active-view");
+        openSelectedLetter(letter);
+      });
     });
     polaroidContainer.appendChild(card);
   });
@@ -480,9 +800,11 @@ function buildReassuranceJournal() {
     tab.innerHTML = `<span>🕊️ ${page.title}</span><span class="date-tag">${page.date}</span>`;
     tab.addEventListener("click", (e) => {
       createTulipBurst(e);
-      if (archiveWrapper) archiveWrapper.style.display = "none";
-      if (letterWrapper) letterWrapper.classList.add("active-view");
-      openSelectedLetter(page);
+      triggerMedievalOpenAnimation(() => {
+        if (archiveWrapper) archiveWrapper.style.display = "none";
+        if (letterWrapper) letterWrapper.classList.add("active-view");
+        openSelectedLetter(page);
+      });
     });
     reassuranceContainer.appendChild(tab);
   });
@@ -493,26 +815,17 @@ function buildBinderJournal() {
   binderContainer.innerHTML = "";
   binderPages.forEach((page) => {
     const tab = document.createElement("div");
-    if (page.type === "locked") {
-      tab.className = "binder-page-tab locked click-sound";
-      tab.style.opacity = "0.65";
-      tab.style.cursor = "not-allowed";
-      tab.innerHTML = `<span>🔒 ${page.title}</span><span class="date-tag" style="background: #999;">nakakubli</span>`;
-      tab.addEventListener("click", () =>
-        alert(
-          "✦ nakakubli pa ang liham na ito at bubuksan lamang sa tamang panahon. ✦",
-        ),
-      );
-    } else {
-      tab.className = "binder-page-tab click-sound";
-      tab.innerHTML = `<span>🌷 ${page.title}</span><span class="date-tag">${page.date}</span>`;
-      tab.addEventListener("click", (e) => {
-        createTulipBurst(e);
+    tab.className = "binder-page-tab click-sound";
+    tab.innerHTML = `<span>🌷 ${page.title}</span><span class="date-tag">${page.date}</span>`;
+    tab.addEventListener("click", (e) => {
+      createTulipBurst(e);
+      const isSpecial = page.type === "special-interactive";
+      triggerMedievalOpenAnimation(() => {
         if (archiveWrapper) archiveWrapper.style.display = "none";
         if (letterWrapper) letterWrapper.classList.add("active-view");
         openSelectedLetter(page);
-      });
-    }
+      }, isSpecial);
+    });
     binderContainer.appendChild(tab);
   });
 }
@@ -526,9 +839,11 @@ function buildRemindersJournal() {
     tab.innerHTML = `<span>✨ ${page.title}</span><span class="date-tag">${page.date}</span>`;
     tab.addEventListener("click", (e) => {
       createTulipBurst(e);
-      if (archiveWrapper) archiveWrapper.style.display = "none";
-      if (letterWrapper) letterWrapper.classList.add("active-view");
-      openSelectedLetter(page);
+      triggerMedievalOpenAnimation(() => {
+        if (archiveWrapper) archiveWrapper.style.display = "none";
+        if (letterWrapper) letterWrapper.classList.add("active-view");
+        openSelectedLetter(page);
+      });
     });
     remindersContainer.appendChild(tab);
   });
@@ -552,10 +867,81 @@ function runTypewriter(text) {
     } else {
       clearInterval(typeInterval);
     }
-  }, 40);
+  }, 35);
 }
 
+let currentLetterPartIdx = 0;
+let activeSpecialLetter = null;
+
 function openSelectedLetter(letter) {
-  if (letterTitle) letterTitle.innerText = letter.title.toLowerCase();
-  runTypewriter(letter.message);
+  activeSpecialLetter = letter;
+  currentLetterPartIdx = 0;
+
+  if (letter.type === "special-interactive") {
+    renderSpecialMultiPartLetter();
+  } else {
+    if (letterTitle) letterTitle.innerText = letter.title.toLowerCase();
+    runTypewriter(letter.message);
+    const existingNextBtn = document.getElementById("next-part-btn");
+    if (existingNextBtn) existingNextBtn.remove();
+  }
+}
+
+function renderSpecialMultiPartLetter() {
+  if (!activeSpecialLetter || !activeSpecialLetter.parts) return;
+  const currentPart = activeSpecialLetter.parts[currentLetterPartIdx];
+
+  if (letterTitle) {
+    letterTitle.innerText = activeSpecialLetter.title.toLowerCase();
+  }
+
+  // Create an exquisite heading block inside the paper before the typewriter text
+  if (typewriterText) {
+    typewriterText.innerHTML = `
+      <div class="letter-act-badge">✦ ${currentPart.act.toUpperCase()} ✦</div>
+      <div class="letter-part-heading">${currentPart.heading}</div>
+      <div class="letter-divider"></div>
+      <div id="typewriter-body"></div>
+    `;
+  }
+
+  // Run the typewriter effect specifically on the body text container
+  const targetBody = document.getElementById("typewriter-body");
+  clearInterval(typeInterval);
+  let charIdx = 0;
+  typeInterval = setInterval(() => {
+    if (charIdx < currentPart.text.length) {
+      if (targetBody) targetBody.innerHTML += currentPart.text.charAt(charIdx);
+      charIdx++;
+    } else {
+      clearInterval(typeInterval);
+    }
+  }, 25);
+
+  // Manage navigation button
+  let nextBtn = document.getElementById("next-part-btn");
+  if (!nextBtn) {
+    nextBtn = document.createElement("button");
+    nextBtn.id = "next-part-btn";
+    nextBtn.className = "click-sound btn-tulip";
+    nextBtn.style.marginTop = "20px";
+    const navButtons = document.querySelector(".nav-buttons");
+    if (navButtons) navButtons.prepend(nextBtn);
+  }
+
+  if (currentLetterPartIdx < activeSpecialLetter.parts.length - 1) {
+    nextBtn.innerText = "susunod na pahina →";
+    nextBtn.onclick = () => {
+      currentLetterPartIdx++;
+      renderSpecialMultiPartLetter();
+    };
+  } else {
+    nextBtn.innerText = "tapusin ang liham ✨";
+    nextBtn.onclick = () => {
+      if (letterWrapper) letterWrapper.classList.remove("active-view");
+      if (archiveWrapper) archiveWrapper.style.display = "flex";
+      const existingNextBtn = document.getElementById("next-part-btn");
+      if (existingNextBtn) existingNextBtn.remove();
+    };
+  }
 }
